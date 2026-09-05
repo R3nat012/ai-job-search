@@ -20,9 +20,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** ROS/ROS2, SLAM (Cartographer, sensor fusion), Nav2/path planning, autonomous mobile robotics (AMR), embedded systems (ATmega328p, STM32, NVIDIA Jetson, CAN bus), computer vision pipelines
+**Moderate match areas:** Humanoid robotics (entry-level scope only), biorobotics/rehabilitation devices (EMG), general ML/dataset curation
+**Weak match areas:** General software engineering unrelated to robotics/embedded systems (e.g., web/backend development, cloud infrastructure), senior/lead humanoid robotics roles
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -34,9 +34,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** AMR/warehouse robotics, robotics research and engineering, mechatronics/embedded systems
+**Moderate:** Biorobotics/rehabilitation devices, academic/research robotics
+**Entry-level:** Humanoid robotics (open to entry-level opportunities as a growth path from AMR/perception)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -67,19 +67,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Build a career in autonomous mobile robotics and perception
+- Grow into humanoid robotics as entry-level opportunities allow
+- Pursue a Master's degree alongside work
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
+- Tasks that energize: Technically challenging problems, hands-on ROS2/SLAM/perception work, opportunities for skill growth
 - Tasks that drain: [YOUR_DRAINING_TASKS]
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed as Robotics Engineer at UTEC; job searching from a position of stability, not urgency
+- **Flexibility**: Remote-first preference and openness to relocation with visa sponsorship; needs schedule flexibility to pursue a Master's degree alongside work
+- **Professional development**: Prioritizes skill growth and challenge; compatibility with concurrent Master's study is a plus
 
 ### 6. Salary Benchmark (Optional)
 

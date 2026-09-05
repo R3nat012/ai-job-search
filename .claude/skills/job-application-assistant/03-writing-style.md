@@ -108,3 +108,8 @@ The cover letter is **not a CV repetition**. It should be forward-looking:
 - Default to the language of the job posting
 - Cover letters in the posting's language should feel natural, not translated
 - Slightly warmer, more personal tone may be acceptable in some languages
+
+## Patterns Observed in Past Applications
+<!-- SETUP: Extracted from documents/applications/ during /setup Path A -->
+- **Recurring opening formula** (seen in iKnowHow and Roche letters): "I am writing to [apply for/express interest in] the [role] at [Company]. As a Mechatronics Engineer(ing graduate) with hands-on experience in [X], I am excited to [contribute/verb]..." Useful as a starting point, but watch that "I am excited to" doesn't drift into the banned-filler territory of Critical Rule #2.
+- **All-prose structure**: both past letters (iKnowHow, Roche) use continuous paragraphs with no bullet lists, which deviates from this framework's recommended 3-5 bullet structure in the body paragraph. Flagged as an observation, not a rule change - bullets are still the framework default going forward.

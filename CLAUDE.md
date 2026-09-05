@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Renato Díaz Sánchez
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Renato Díaz Sánchez, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +16,80 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Renato Díaz Sánchez
+- **Location:** Lima, Peru (open to relocation with visa sponsorship; remote-first otherwise)
+- **Languages:** Spanish (Native), English (Fluent, C1 - TOEFL ITP 620/677), Japanese (Conversational), German (Conversational)
+- **Status:** Currently employed as Robotics Engineer at UTEC, open to new opportunities
+- **LinkedIn headline:** "Bachiller en Ing. Mecatrónica - Universidad de Ingeniería y Tecnología"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **BSc in Mechatronics Engineering** (Feb 2019-Dec 2025) - UTEC, Lima, Peru
+  - Topics: Robotics, control systems, mechatronics design
+- **Erasmus+ Robotics Engineering Traineeship** (Mar 2025-Aug 2025) - Technische Universität Wien, Vienna, Austria
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Robotics Engineer** (Mar 2026 - Present) - **UTEC - Universidad de Ingeniería y Tecnología** (Lima, Peru)
+  - Developing and implementing control pipelines for robotic arm manipulation tasks
+  - Programming ROS2 packages for a Unitree H1-2 humanoid robot, including low-level motor control and communication libraries
+  - Designing modular software architectures for multi-robot systems in research and educational contexts
+- **Robotics Engineering Trainee** (Mar 2025 - Aug 2025) - **Technische Universität Wien, Institute of Production Engineering** (Vienna, Austria)
+  - Delivered an end-to-end AMR pilot for warehouse operations, building a ROS2 simulation-to-field pipeline
+  - Integrated LiDAR and RGB-D sensors with 5G edge connectivity, reducing commissioning time by 50%
+  - Achieved 86% autonomous navigation and mapping accuracy through SLAM and sensor fusion
+  - *(Aug 2025-Feb 2026: job searching and independent study between this traineeship and starting at UTEC.)*
+- **Mechatronics Engineer** (Nov 2024 - Feb 2025) - **INNOVO** (Lima, Peru)
+  - Optimised manufacturing processes using time-and-motion analysis
+  - Curated and labelled image datasets for training grass-recognition neural networks
+  - Programmed microcontrollers (ATmega328p/STM32) for sensor integration, CAN bus communication, NVIDIA Jetson embedded development
+- **Laboratory Teaching Assistant** (Aug 2024 - Dec 2024) - **UTEC** (Lima, Peru)
+  - Assisted in the Digital Fabrication Laboratory and served as TA for Proyectos Interdisciplinarios II
+  - Maintained 3D printers, laser cutters, and CNC machines: diagnostics, part replacement, preventive maintenance
+
+### Independent Projects
+- **Assistech** (2024, shelved) - System integrating multiple EMG sensors to monitor patients' muscular activity
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** ROS/ROS2, Python, C++, SLAM (Cartographer, sensor fusion), Nav2/path planning, computer vision pipelines
+- **Secondary:** MATLAB, Bash, embedded systems (ATmega328p, STM32, NVIDIA Jetson, CAN bus)
+- **Domain:** Autonomous mobile robotics, humanoid robotics (entry-level), sensor fusion, biorobotics/rehabilitation devices
+- **Software:** Gazebo, Gazebo Fortress, RViz, URDF/XACRO, V-REP, Git, Linux/Ubuntu, Docker, CAD & Design, Excel (advanced)
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **TOEFL ITP** - Score 620/677 (C1 English proficiency) - completed Sep 2023
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- Huamanchahua, D., Loayza-Bautista, S., Sánchez-Vílchez, D., Ponce-Bohórquez, A., Flores-Leyva, A., & Díaz-Sánchez, R. (2023). Upper Limb Exoskeletons for Motor Rehabilitation using Virtual Reality: A Technological Review. IEEE Colombian Caribbean Conference (C3).
+- Huamanchahua, D., Loayza-Bautista, S., Sánchez-Vílchez, D., Ponce-Bohórquez, A., Flores-Leyva, A., & Díaz-Sánchez, R. (2024). Design of a 4DoF Active Upper Limb Exoskeleton to Rehabilitate Osteoarthritis Injuries in Elderly. IEEE IEMTRONICS.
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None identified yet
 
 ### Behavioral Profile
 <!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Deployment-driven** - Motivated by expanding what robots can do at the intersection of AI and real-world deployment *(inferred from LinkedIn About - not yet validated by formal assessment)*
+- **Cross-disciplinary** - Comfortable across the full robotics stack (CAD, embedded systems, ROS2 software, control)
+- **Strengths:** Hands-on end-to-end delivery under deadline pressure (e.g. TU Wien AMR pilot), hardware-software integration
+- **Growth areas:** Not yet formally assessed
+- **Thrives in:** Methodical, quality-first environments that value planning and validation over speed-to-ship, with room to grow into more responsibility
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Technically challenging problems in autonomous navigation, perception, and mobile robotics
+- Continuous skill growth, including pursuing a Master's degree alongside work
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Industrial robotics/automation: ABB, FANUC, NVIDIA
+- Academic/research robotics: universities in Germany, Switzerland, Ukraine
 
 ### Deal-breakers
 <!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- None beyond location constraints: relocation requires visa sponsorship; otherwise remote-first
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

@@ -110,11 +110,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For AMR / Autonomous Systems / Perception roles:**
+> Graduate Mechatronics Engineer specializing in autonomous mobile robotics and perception, with hands-on experience delivering an end-to-end AMR pilot at TU Wien that cut commissioning time by 50% and reached 86% autonomous navigation accuracy through SLAM and sensor fusion. Proficient in ROS2, Nav2, LiDAR/RGB-D integration, and Gazebo-based simulation-to-field pipelines. Currently developing ROS2 control software for robotic manipulators and a Unitree H1-2 humanoid at UTEC. Seeking to bring this navigation and perception experience to production autonomous systems.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Humanoid Robotics (entry-level) roles:**
+> Graduate Mechatronics Engineer with direct, current experience programming ROS2 software for a Unitree H1-2 humanoid robot at UTEC, including low-level motor control and multi-robot software architecture. Background spans autonomous mobile robotics (TU Wien AMR pilot, 86% navigation accuracy), embedded systems, and sensor integration. Eager to grow into humanoid robotics as an entry-level contributor, bringing a full-stack robotics foundation from CAD through control software.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

@@ -39,6 +39,49 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
+## STAR Candidates (Complete Manually)
+<!-- SETUP: Identified from documents/ during /setup Path A. Fill in S/T/A/R details before using in an interview. -->
+
+### TU Wien AMR pilot (ROS2, Nav2, sensor fusion)
+**Source:** CV / cover letters - Robotics Engineering Trainee, TU Wien
+**What happened:** Delivered an end-to-end AMR pilot for warehouse operations, building a ROS2 simulation-to-field pipeline, integrating LiDAR/RGB-D with 5G edge connectivity, cutting commissioning time by 50% and reaching 86% autonomous navigation/mapping accuracy.
+**Why it matters:** Strong answer for "biggest technical achievement," "ownership of a project end-to-end," "working under deadline pressure"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Unitree H1-2 humanoid ROS2 development (UTEC)
+**Source:** CV - Robotics Engineer, UTEC
+**What happened:** Programming ROS2 packages for a Unitree H1-2 humanoid robot, including low-level motor control and communication libraries, plus modular multi-robot software architecture.
+**Why it matters:** Good for "current/most recent technical work," "designing for extensibility," "working with cutting-edge hardware"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Grass-recognition dataset + embedded integration (INNOVO)
+**Source:** CV - Mechatronics Engineer, INNOVO
+**What happened:** Curated and labelled image datasets for training grass-recognition neural networks, alongside microcontroller programming (ATmega328p/STM32), CAN bus integration, and NVIDIA Jetson embedded development.
+**Why it matters:** Good for "cross-disciplinary work," "data quality/ML pipeline questions," "hardware-software integration"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Assistech - EMG muscular activity monitoring system
+**Source:** Independent project (self-initiated, 2024, shelved)
+**What happened:** Built a system integrating multiple EMG sensors to monitor patients' muscular activity, outside of any employer or academic requirement.
+**Why it matters:** Good for "initiative/self-driven work," "why biorobotics/rehab tech interests you," "what did you learn from a project that didn't ship"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"

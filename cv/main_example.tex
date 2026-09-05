@@ -1,169 +1,103 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
-%%
-%% SETUP: Run /setup to populate this with your actual information.
-%% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
-
+%!TEX program = lualatex
 \documentclass[11pt,a4paper,sans]{moderncv}
+
 \moderncvstyle{banking}
 \moderncvcolor{blue}
+\moderncvicons{marvosym}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
-\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
-
+\usepackage[scale=0.85]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\usepackage{needspace}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Renato Díaz Sánchez - CV},
     pdfpagemode=FullScreen,
 }
-\usepackage[scale=0.80]{geometry}
-\usepackage{import}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Renato}{Díaz Sánchez}
+\title{Graduate Mechatronics Engineer}
+\address{Lima}{Callao Region, Peru}
+\phone[mobile]{+51~924~974~031}
+\email{renatodazs3@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/renatodiazsa}{LinkedIn}, \href{https://github.com/R3nat012}{GitHub}}
 
 \begin{document}
-
 \makecvtitle
 
-% ============================================================
-%     PROFILE STATEMENT
-% ============================================================
+\section{Profile}
+Graduate Mechatronics Engineer skilled in autonomous mobile robotics and advanced sensor integration. Reduced AMR deployment time by 50\% at TU Wien through optimised simulation-to-field pipeline development. Proficient in ROS2, SLAM algorithms, computer vision, and embedded systems programming. Published researcher in IEEE conferences with a strong foundation in control theory and practical implementation. Seeking robotics engineering positions in autonomous systems, perception, or mobile robotics.
 
-\vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\section{Experience}
 
-% ============================================================
-%     CORE COMPETENCIES
-% ============================================================
-
-\section{Core Competencies}
-\vspace{1pt}
+\needspace{5\baselineskip}
+\cventry{Mar 2026--Present}{Robotics Engineer}{UTEC -- Universidad de Ingeniería y Tecnología}{Lima, Peru}{}{
+Conducts applied robotics research focused on motion planning and control for robotic manipulators and humanoid platforms. Contributes to the development of ROS2-based software infrastructure for laboratory research and academic use.
 \begin{itemize}
-
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
-
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
-
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
-
+\item Developing and implementing control pipelines for robotic arm manipulation tasks.
+\item Programming ROS2 packages for a Unitree H1-2 humanoid robot, including low-level motor control and communication libraries.
+\item Designing modular software architectures for multi-robot systems in research and educational contexts.
 \end{itemize}
+}
 
-% ============================================================
-%     PROFESSIONAL EXPERIENCE
-% ============================================================
-
-\section{Professional Experience}
-\vspace{3pt}
+\needspace{5\baselineskip}
+\cventry{Mar 2025--Aug 2025}{Robotics Engineering Trainee}{Technische Universität Wien, Institute of Production Engineering}{Vienna, Austria}{}{
+Delivered an end-to-end AMR pilot for warehouse operations, establishing a ROS2 simulation-to-field pipeline for realistic testing. Integrated LiDAR and RGB-D sensors with 5G edge connectivity, reducing commissioning time by 50\%. Achieved 86\% autonomous navigation and mapping accuracy through SLAM and sensor fusion. Developed a Nav2-based navigation stack featuring dynamic obstacle avoidance and safety checks.
 \begin{itemize}
-
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-\end{itemize}}}
-
+\item Optimised deployment workflow, halving commissioning time.
+\item Enhanced navigation with advanced obstacle avoidance techniques.
+\item Achieved high mapping accuracy in complex environments.
 \end{itemize}
+}
 
-% ============================================================
-%     EDUCATION
-% ============================================================
+\needspace{5\baselineskip}
+\cventry{Nov 2024--Feb 2025}{Mechatronics Engineer}{INNOVO}{Lima, Peru}{}{
+Optimised manufacturing processes using time-and-motion analysis, enhancing throughput and reliability. Developed comprehensive CAD drawings and wiring schematics for robotic subsystems. Curated and labelled image datasets for training grass-recognition neural networks. Programmed microcontrollers (ATmega328p/STM32) for sensor integration, established CAN bus communication, and developed embedded software on an NVIDIA Jetson platform.
+\begin{itemize}
+\item Improved system throughput by streamlining manufacturing processes.
+\item Created detailed CAD drawings and manufacturing documentation.
+\item Ensured high data quality for neural network training datasets.
+\item Integrated sensors through programming of microcontrollers.
+\end{itemize}
+}
+
+\needspace{5\baselineskip}
+\cventry{Aug 2024--Dec 2024}{Laboratory Teaching Assistant}{UTEC -- Universidad de Ingeniería y Tecnología}{Lima, Peru}{}{
+Assisted in the Digital Fabrication Laboratory and served as teaching assistant for Proyectos Interdisciplinarios II.
+\begin{itemize}
+\item Maintained 3D printers, laser cutters, and CNC machines: diagnostics, part replacement, preventive maintenance.
+\item Prepared technical reports and upheld safety protocols during lab operations.
+\end{itemize}
+}
+
+\needspace{8\baselineskip}
+\section{Independent Projects}
+\cventry{2024}{Independent Project}{Assistech}{}{}{System integrating multiple EMG sensors to monitor patients' muscular activity. (Shelved.)}
 
 \section{Education}
-\vspace{1pt}
-\begin{itemize}
+\cventry{Feb 2019--Dec 2025}{Bachelor of Science in Mechatronics Engineering}{University of Technology and Engineering (UTEC)}{Lima, Peru}{}{}
+\cventry{Mar 2025--Aug 2025}{Production Engineering Traineeship (ERASMUS+)}{Technische Universität Wien}{Vienna, Austria}{}{}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
-
-\end{itemize}
-
-% ============================================================
-%     LANGUAGES
-% ============================================================
+\section{Skills}
+\cvitem{ROS / ROS2}{Development, package design, launch orchestration}
+\cvitem{Languages (Prog.)}{Python, C++, MATLAB, Bash}
+\cvitem{SLAM \& Planning}{SLAM algorithms, path planning, Nav2}
+\cvitem{Computer Vision \& AI}{Computer vision pipelines, dataset curation, neural network training}
+\cvitem{Simulation}{Gazebo, RViz, URDF/XACRO, V-REP}
+\cvitem{Embedded Systems}{ATmega328p, STM32, NVIDIA Jetson, CAN bus}
+\cvitem{Tools}{Git, Linux/Ubuntu, Docker, CAD \& Design}
 
 \section{Languages}
-\vspace{1pt}
-\begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
+\cvitemwithcomment{Spanish}{Native}{}
+\cvitemwithcomment{English}{Fluent}{}
+\cvitemwithcomment{Japanese}{Conversational}{}
+\cvitemwithcomment{German}{Conversational}{}
 
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
-\end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
-
-\section{References}
-\vspace{1pt}
-\begin{itemize}
-\item{Available upon request.}
-\end{itemize}
+\section{Publications \& Research}
+\cventry{2024}{Design of a 4 DoF Active Upper Limb Exoskeleton to Rehabilitate Osteoarthritis Injuries in Elderly}{IEEE IEMTRONICS}{}{}{}
+\cventry{2023}{Upper Limb Exoskeletons for Motor Rehabilitation using Virtual Reality: A Technological Review}{IEEE Colombian Caribbean Conference}{}{}{}
 
 \end{document}
