@@ -61,6 +61,9 @@ Lima, Peru
 <!-- Projects outside of employment: freelance, open source, personal -->
 - **Assistech** (2024, shelved): System integrating multiple EMG sensors to monitor patients' muscular activity.
 
+## Workshops & Training
+- **MuJoCo + Unitree Go2/G1 Workshop** (Sep 2026, 5 days; final day pending) - run by 404 (Colombian company), funded by UTEC. Hands-on: MuJoCo simulation, controlling the real Unitree Go2 (quadruped) and G1 (humanoid) via the Unitree SDK, and working on the robots' onboard (internal) computers. Certificate pending until the final day is completed.
+
 ## Technical Skills
 
 ### Programming & ML
@@ -72,6 +75,7 @@ Lima, Peru
 ### Domain Expertise
 - Autonomous mobile robotics (AMR)
 - Humanoid robotics
+- Quadruped robotics (workshop-level: Unitree Go2, Sep 2026)
 - Sensor fusion (LiDAR, RGB-D)
 - Extrinsic sensor calibration (Stereolabs ZED 2i, Intel RealSense); Pixhawk flight controllers with GNSS/RTK
 - Embedded systems: ATmega328p, STM32, NVIDIA Jetson, CAN bus
@@ -79,7 +83,8 @@ Lima, Peru
 
 ### Software & Tools
 - Gazebo, Gazebo Fortress, RViz, URDF/XACRO, V-REP
-- MuJoCo (trialed alongside Gazebo during simulator evaluation for the TU Wien AMR project; Gazebo was the tool used for the deployed pipeline)
+- MuJoCo (trialed alongside Gazebo during simulator evaluation for the TU Wien AMR project, where Gazebo was used for the deployed pipeline; used hands-on in the Sep 2026 404 workshop with Unitree Go2/G1)
+- Unitree SDK (real-robot control of Go2 and G1 in the Sep 2026 404 workshop)
 - Git, Linux/Ubuntu, Docker, CAD & Design, Excel (advanced)
 
 ## Publications

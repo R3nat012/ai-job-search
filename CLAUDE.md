@@ -54,8 +54,11 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ### Technical Skills
 - **Primary:** ROS/ROS2, Python, C++, SLAM (Cartographer, sensor fusion), Nav2/path planning, computer vision pipelines
 - **Secondary:** MATLAB, Bash, embedded systems (ATmega328p, STM32, NVIDIA Jetson, CAN bus)
-- **Domain:** Autonomous mobile robotics, humanoid robotics (entry-level), sensor fusion, biorobotics/rehabilitation devices
-- **Software:** Gazebo, Gazebo Fortress, RViz, URDF/XACRO, V-REP, Git, Linux/Ubuntu, Docker, CAD & Design, Excel (advanced)
+- **Domain:** Autonomous mobile robotics, humanoid robotics (entry-level), quadruped robotics (workshop-level, Unitree Go2), sensor fusion, biorobotics/rehabilitation devices
+- **Software:** Gazebo, Gazebo Fortress, MuJoCo, Unitree SDK, RViz, URDF/XACRO, V-REP, Git, Linux/Ubuntu, Docker, CAD & Design, Excel (advanced)
+
+### Workshops & Training
+- **MuJoCo + Unitree Go2/G1 Workshop** (Sep 2026, 5 days; final day pending) - run by 404 (Colombian company), funded by UTEC. Hands-on: MuJoCo simulation, controlling the real Unitree Go2 (quadruped) and G1 (humanoid) via the Unitree SDK, and working on the robots' onboard (internal) computers. Certificate pending until the final day is completed.
 
 ### Certifications
 <!-- List relevant certifications with dates -->
