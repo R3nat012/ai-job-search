@@ -67,7 +67,7 @@ Lima, Peru
 ## Technical Skills
 
 ### Programming & ML
-- **Python** (proficient), **C++** (proficient), **MATLAB**, **Bash**
+- **Python** (proficient), **C++** (proficient), **MATLAB**, **Bash**, **Rust** (beginner-intermediate)
 - ROS/ROS2: development, package design, launch orchestration
 - SLAM & path planning: SLAM algorithms, Nav2, Cartographer SLAM, TF trees, custom odometry publishers
 - Computer vision pipelines, dataset curation, neural network training
