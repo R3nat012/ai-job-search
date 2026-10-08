@@ -175,3 +175,22 @@ Before writing the application, consider whether the candidate should call the c
 - The call's purpose is **gathering information**, not delivering a pitch
 - Take notes - use what you learn to tailor the application
 - Reference the conversation naturally in the cover letter ("After speaking with [name], I was especially drawn to...")
+
+## Calibration from Past Applications
+
+*[Derived from 3 resolved applications as of 2026-10-08. Small sample: treat as a hypothesis, not a rule.]*
+
+| Application | Triage | Location / visa | Outcome |
+|---|---|---|---|
+| Roche - Field Service Engineering Support (Feb 2026) | not scored | unknown (posting not retained) | Rejected ~1 week after applying, no interview, no feedback |
+| Neumüller (agency, undisclosed client) - Simulation Engineer, Robotics & SiL | 80 / Strong Fit | Munich DE, relocation, sponsorship not stated | Rejected, no interview, no feedback |
+| Capgemini Engineering - GNC Developer | 75 / Strong Fit | Stevenage UK hybrid, security clearance, no UK residency | Rejected, no interview, no feedback |
+
+**Observed pattern (2 of 2 scored applications):** Strong-Fit triage scores (75-80) were rejected at CV screening when (a) the role required relocation and the posting did not state visa sponsorship (plus security clearance for Capgemini), and (b) the candidate disclosed falling short of an explicit minimum requirement (Capgemini: 2-year ROS minimum vs ~1.5 years; Neumüller: CI/CD and Isaac Sim/Webots). No feedback was received, so the two factors cannot yet be separated. Roche is excluded from the pattern (no posting or triage score retained).
+
+**How to apply when evaluating:**
+- If a role requires relocation and sponsorship isn't stated, add a **Screening risk** line to the evaluation. A 75+ score in that case means "apply, but expect CV-screen risk", not "definitely apply".
+- Treat an unmet explicit minimum ("minimum X years", "must have") as a separate screening risk, in addition to the skills score.
+- Among similar fits, prefer postings that explicitly offer visa or relocation support.
+- Before applying, ask the recruiter about sponsorship. It's a quick check, and the answer helps separate the two possible causes.
+- Revisit this section when ITCL, Optimus Search and tsmg (applied 2026-10-08, none stating sponsorship) are resolved.

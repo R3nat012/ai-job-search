@@ -43,6 +43,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
   - Optimised manufacturing processes using time-and-motion analysis
   - Curated and labelled image datasets for training grass-recognition neural networks
   - Programmed microcontrollers (ATmega328p/STM32) for sensor integration, CAN bus communication, NVIDIA Jetson embedded development
+  - Performed extrinsic calibration of depth/stereo cameras (Stereolabs ZED 2i, Intel RealSense); calibrated Pixhawk flight controllers with their GNSS and RTK modules
 - **Laboratory Teaching Assistant** (Aug 2024 - Dec 2024) - **UTEC** (Lima, Peru)
   - Assisted in the Digital Fabrication Laboratory and served as TA for Proyectos Interdisciplinarios II
   - Maintained 3D printers, laser cutters, and CNC machines: diagnostics, part replacement, preventive maintenance

@@ -48,6 +48,8 @@ Lima, Peru
 - Developed CAD drawings and wiring schematics for robotic subsystems
 - Curated and labelled image datasets for training grass-recognition neural networks
 - Programmed microcontrollers (ATmega328p/STM32) for sensor integration, established CAN bus communication, developed embedded software on an NVIDIA Jetson platform
+- Performed extrinsic calibration of depth/stereo cameras (Stereolabs ZED 2i, Intel RealSense)
+- Calibrated Pixhawk flight controllers together with their GNSS and RTK modules
 
 ### Laboratory Teaching Assistant - UTEC (Aug 2024 - Dec 2024)
 Lima, Peru
@@ -71,6 +73,7 @@ Lima, Peru
 - Autonomous mobile robotics (AMR)
 - Humanoid robotics
 - Sensor fusion (LiDAR, RGB-D)
+- Extrinsic sensor calibration (Stereolabs ZED 2i, Intel RealSense); Pixhawk flight controllers with GNSS/RTK
 - Embedded systems: ATmega328p, STM32, NVIDIA Jetson, CAN bus
 - Biorobotics / rehabilitation devices (EMG)
 
